@@ -1,0 +1,5 @@
+# Mark CSS files as vendored, which are usually not counted for language statistics
+*.css linguist-vendored=true
+
+# Ensure Python files are detected
+*.py linguist-detectable=true
